@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Utilities to help test react-native code with Jest & enzyme",
   "main": "src/index.js",
-  "types": "dist/*.d.ts",
+  "types": "./dist/TestUtilities.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
