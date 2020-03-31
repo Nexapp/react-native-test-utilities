@@ -1,0 +1,32 @@
+{
+  "name": "@nexapp/react-native-test-utilities",
+  "version": "0.0.0",
+  "description": "Utilities to help test react-native code with Jest & enzyme",
+  "main": "src/index.js",
+  "types": "dist/*.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "enzyme": "3.11.0",
+    "typescript": "2.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nexapp/react-native-test-utilities.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "react-native",
+    "test",
+    "enzyme"
+  ],
+  "author": "Emilie Lessard <elessard@nexapp.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/enzyme": "^3.10.5"
+  }
+}
